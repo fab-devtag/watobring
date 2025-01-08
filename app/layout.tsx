@@ -27,6 +27,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav className="navbar fixed">
+          <div className="navbar-start">Accueil</div>
+          <div className="navbar-end">Connexion</div>
+        </nav>
         <div className="flex justify-center items-center h-screen">
           {children}
         </div>
